@@ -51,7 +51,7 @@ A small [standalone web app](https://n3rdl0rd.github.io/alivecells/stamptool) fo
 
 ### mobile/lang.py
 
-Unpacks, repacks, decrypts, and encrypts the GNU MO files used for translations in Dead Cells mobile builds. Some mobile builds XOR-encrypt their MO files using a Fibonacci-derived key stream.
+Unpacks, repacks, decrypts, and encrypts the GNU MO files used for translations in Dead Cells mobile builds. 
 
 ```plaintext
 lang.py unpack <input.mo> <output.po>      Convert MO binary to readable PO text
